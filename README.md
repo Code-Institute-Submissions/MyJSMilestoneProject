@@ -113,3 +113,26 @@ if i do this Css or Js which is separeted doasn´t work.
 4.https://jshint.com/ - JS Validator:
 * game.js - one warning.
 * email.js - one undefined variable
+
+# Deployment
+This site is hosted using GitHub pages, deployed directly from the master branch. The live site updates automatically each time there is a new push to the repository. You can git clone the code to run it locally on your machine.
+
+Most of the code i did in Code Visual studio 
+and deploy it manually from my laptop to github
+1. I opened github .
+2. I created my milestone repository.
+3. I opened my milestone repository folder
+4. I clicked add file button and chose update file(on the left side of gitpod button)
+5. on the screen will show add file , I clicked there and i chose folder with every file .
+6. next i click commit under everything
+
+# Credits:
+1. https://www.iconfinder.com/ - icons for the game i took from there
+2. https://www.emailjs.com/ - i used it to contact page for send emails
+3. https://www.w3schools.com/ - helpfull website with many tips
+4. https://courses.codeinstitute.net/program/FullstackWebDeveloper 
+5. https://www.youtube.com/watch?v=c_ohDPWmsM0 - this project was based on this js code
+
+# Thanks 
+Thanks to everyone from code institute who really helped me and calling me because they wanted to know how i am doing my code .
+Whole course is really helpfull and after that i feel much smarter.
