@@ -1,68 +1,65 @@
 # Interactive Frontened Development Milestone Project - Jakub´s Memory Game.
 
-I´ve been required to create Project by Coding Instytute as my second one this will testing my Javascript knowledge and skills.
-I used for this project Html,Css and Javascript programs. The purpouse of this side is having fun by creating and plaing (while testing)
-memory game .
+I´ve been required by Code Institute to create a project in order to test my Javascript knowledge and skills.
+For this project, I have used three programs: Html, Css and Javascript. The purpose of this site is to apply all the learnt Javascript competences
+ to create a game where all these will be shown.
 
-##UX :
-This game is created for the persons who like fast warm up a brain before hard brain work, people who like to challenge themself in that type of games.
-You can find out from the last line that is for everyone who likes to have fun while is sitting on the front of screen.
+## UX :
+This game is aimed for everyone who likes to warm up before hard brain work and/or people who just like challenging their memorizing skills.
+Basically, it is for everyone who enjoys online games.
 
-1. As a creator i want to:
-* create simple navigation to the game or to the contact side.
-* create respond game while plaing have fun.
-* contact page with working send email option
-* simple describe what is memory game and how it works
+1. As a creator I want:
+* To create a simple navigation through the game or to the contact section.
+* To create a game where players can have fun.
+* A contact page with an option to be contacted via e-mail.
+* To provide a simple description of what the game is like and how it works.
 
-2. As a user i want to :
-* know what is that game
-* be simply navigated around the project
-* contact creator 
-* have fun in game 
-* restart the game in therefore i want to play more then one time
-* if i like that website i want to see his profile in github
+2. As a user I want to :
+* Know what the game is about and what rules there are.
+* Be able to navigate through the site easily.
+* Be able to contact the creator.
+* To have fun with the game.
+* To be able to restart the game if I want to play again.
+* I want to be able to find the creator's profile on Github.
 
-## This webside have three sides:
-1. index.html - which is a menu side , you can find here navigation to the others contents 
-and easy describtion of the game .
+## This webside consists of three sections:
+1. index.html - is a menu section where you cand find a simple description of the game and other content.
 
-2. Game Page - there is a game after visit this page fun will start
+2. Game Page - This is where the game will be found.
 
-3. Contact Page - here u can email me on my private email , try and i will respond 
-
+3. Contact Page - Here there is an option to contact me. I will respond to any received e-mails.
 ### Wireframe, Mockup
 1. Mockup https://wireframe.cc/pro/pp/f29e8e8b3414265
 2. Wireframe sketch  https://github.com/Jakub1994/MyJSMilestoneProject/blob/master/Sketch/draw.jpg?raw=true
 
 # Features 
 ## Existing Features:
-* Memory game allows to play in game on the side
-* Restart option while game is done board getting restarted
+* A memory game to play online on this site.
+* A "restart board" option to start once again when all cards are  matched.
 * A script has been written to avoid double clicking bugs
-* if cards are matched all functions for the pair are disabled until game is reset
-* full Respond contact page allows send email to creator (me)
-* About - Page where game is described
-## Features Left to Improve and add to page:
-* timer in the game , it allows checking the time how long we were plaing
-* score in game, allows check how many points u scored
-* moves in game, check how many moves u used
-* Highscore in game , allows to check score of other players
-
+* If cards are matched, the pair will be locked until the game is reseted.
+* A contact section that allows the user to contact the creator.
+* About - This is where the game is described.
+## Features Left to Improve and add to the page:
+* A timer, to start a countdown when the user starts playing and show the time left in every moment.
+* A game score, to show the player the points gained.
+* A number of moves counter, to show the player the number of times he/she flipped a pair of cards.
+* Best scores, showing a list with the 10 highest scores, including other players' scores
 # Technologies used:
 1. Programs:
-- HTML - Program used to create base for project
-- CSS - used for design 
-- Javascript - Really powerfull code language used for my game and to send email from platform to me
-2. Librarys:
-- Bootstrap - library css used for modify project to design mobile,tablet,laptop version
-- Google fonts - font library.
+- HTML - Program used to create the base of the project
+- CSS - Used to design the whole project.
+- Javascript - Really powerfull code language used to code the game itself and the contact section.
+2. Library:
+- Bootstrap - The Css Library used to modify the project in order to design the mobile, tablet and laptop versions.
+- Google fonts - Font library.
 3. Coding Platforms:
-- Gitpod - used to coding , testing and writing UX
-- Visual Studio Code - platform used to coding my project
+- Gitpod - used to code, test and write the UX.
+- Visual Studio Code - Platform used for the project's code.
 4. Coding library:
-- Github - stock my project
+- Github - Used to store the project.
 5.Websites:
-- https://www.emailjs.com/ -used for sending Email writed on the side to my email
+- https://www.emailjs.com/ -Used to send the e-mails written on the site to my personal e-mail.
 
 # Testing:
 ## Navigation 
@@ -74,24 +71,23 @@ I tested game by plaing it many times.
 Functions are working and game is fully playable.
 
 ### Testing Game Functions:
-1. Card flip - Tested by clicking on the card and card get flip over.
-2. Matching - clicking two cards and if cards were match they stayed flipped and locked until the board restart
-3. Not a match - if both clicked cards are different they flipping back and still playable
-4. Restart - while u complete the game , new window with massege is showing up and when u click ok its getting restart.
-
-## Contact Page:
-Whole page works without any problems ,Email will be sent if user type every point in the page.
-1. Username: its the text type field where user have to write his name.
-2. Email: its the email type field where user have to write his email.
-3. Phone: its the text type field for the user phone
-4. Message in this field user text the message to me
-5. Alert is showing up when u text me and is telling u that text get sent , 
-While text is sent u still will be at this page. 
-Use the "Go Back" Navigator.
+1. Card flip - Tested by clicking on a card and the card flipped over.
+2. Matching - when clicking two cards that match, they stay flipped and locked until the board restarts.
+3. Not a match - if both clicked cards are different, they flip back and the game continues.
+4. Restart - when the game is finished, the player will be prompted to restart it by pressing "ok"
+ 
+## Contact section:
+The whole section works correctly, an e-mail message will be sent if the user fills every field.
+1. Username: it is the text type field where the user has to write his/her name.
+2. Email: it is the e-mail type field where the user has to write his/her e-mail address.
+3. Phone: its the text type field for the user to insert his/her phone number.
+4. Message: this field is for the user to type the message he/she wants the creator to receive.
+5. A confirmation text will show up when the message is sent.
+ Once these steps are completed, the user can select the "Go Back" navigator.
 
 #Bugs:
-1. The biggest bug in my Projects is then i cannot separate my Css,Js from Html page .
-if i do this Css or Js which is separeted doasn´t work.
+1. The worst bug I usually find in my projects, is when I try to separate the CSS, HTML and Javascript files.
+If I do this, either CSS or JS files, do not work.
 
 # Code Validators:
 1. https://validator.w3.org/#validate_by_input - HTML validator:
@@ -102,9 +98,9 @@ if i do this Css or Js which is separeted doasn´t work.
 - no errors
 - 2 warnings
 * Game Page
-- No errors and warnings
+- No errors nor warnings
 2. https://jigsaw.w3.org/css-validator/#validate_by_input - Css validator:
--no errors 
+- no errors
 - it detected 7 Warnings.
 3.
 ![lighthouse screenshot](https://github.com/Jakub1994/MyJSMilestoneProject/blob/master/screenshot/lighthouse%20performance.png?raw=true)
@@ -115,24 +111,22 @@ if i do this Css or Js which is separeted doasn´t work.
 * email.js - one undefined variable
 
 # Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The live site updates automatically each time there is a new push to the repository. You can git clone the code to run it locally on your machine.
-
-Most of the code i did in Code Visual studio 
-and deploy it manually from my laptop to github
+This site is hosted using GitHub pages, deployed directly from the master branch. The live site updates itself automatically everytime there is a new push to the repository.
+ You can git clone the code to run it locally on your machine.
+ 
+Most of the coding was done in Visual Studio Code and deployed manually form my laptop to github.
 1. I opened github .
 2. I created my milestone repository.
-3. I opened my milestone repository folder
-4. I clicked add file button and chose update file(on the left side of gitpod button)
-5. on the screen will show add file , I clicked there and i chose folder with every file .
-6. next i click commit under everything
-
+3. I opened my milestone repository folder.
+4. I clicked on the "add file" button, and sleected "update file" on the left side of the gitpod button).
+5. After that, I was prompted to add a file so I opened the folder with all the files.
+6. To finalize, I clicked on "commit" to save everything.
 # Credits:
-1. https://www.iconfinder.com/ - icons for the game i took from there
-2. https://www.emailjs.com/ - i used it to contact page for send emails
-3. https://www.w3schools.com/ - helpfull website with many tips
+1. https://www.iconfinder.com/ - The icons in the game were imported from here.
+2. https://www.emailjs.com/ - Used in the contact section to enable sending e-mails.
+3. https://www.w3schools.com/ - Used as an advice resource.
 4. https://courses.codeinstitute.net/program/FullstackWebDeveloper 
-5. https://www.youtube.com/watch?v=c_ohDPWmsM0 - this project was based on this js code
+5. https://www.youtube.com/watch?v=c_ohDPWmsM0 - this project was based on this JS code.
 
 # Thanks 
-Thanks to everyone from code institute who really helped me and calling me because they wanted to know how i am doing my code .
-Whole course is really helpfull and after that i feel much smarter.
+I really want to thank to whole team from Code Institute for their constant support and periodic checks on my performance, and besides, for the huge amount of resources and useful material provided, which made this project possible.
