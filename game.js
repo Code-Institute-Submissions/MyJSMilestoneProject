@@ -2,10 +2,7 @@ var memory_array = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 
 var memory_values = [];
 var memory_tile_ids = [];
 var tiles_flipped = 0;
-var timer;
 
-let moves = 0;
-let counter = document.querySelector(".scoreBoard");
 
 Array.prototype.memory_tile_shuffle = function() {
     var i = this.length, j, temp;
@@ -28,7 +25,7 @@ function newBoard(){
     }
     document.getElementById('memory_board').innerHTML = output;
 }
-window.addEventListener(newBoard());
+window.addEventListener(newBoard(),memory_values);
 
 function memoryFlipTile (tile,val) {
     if (tile.innerHTML == "" && memory_values.length < 2) {
