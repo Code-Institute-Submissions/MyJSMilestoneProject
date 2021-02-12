@@ -106,7 +106,8 @@ if i do this Css or Js which is separeted doasn´t work.
 2. https://jigsaw.w3.org/css-validator/#validate_by_input - Css validator:
 -no errors 
 - it detected 7 Warnings.
-3. 
+3. Lighthouse Performance:
+![lighthouse screenshot](https://github.com/Jakub1994/MyJSMilestoneProject/blob/master/screenshot/lighthouse%20performance.png?raw=true)
 We encourage you to create your own game, by choosing a set of visual and/or auditory patterns that increase in complexity over the course of the game and challenge the player. Games that you could look at for inspiration include Simon and Bop It.
 
 Provide users with clear explanations on how to play the game and with clear feedback on how they're doing at any stage
